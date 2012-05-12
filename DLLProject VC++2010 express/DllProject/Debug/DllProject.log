@@ -1,0 +1,37 @@
+﻿Compilación iniciada a las 12/05/2012 12:52:59.
+     1>Proyecto "e:\Usuarios\Pablo\mis documentos\visual studio 2010\Projects\DllProject\DllProject\DllProject.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\DllProject.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLPROJECT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DllProject.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLPROJECT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLPROJECT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DllProject.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DllProject.cpp
+         DllProject.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DllProject.dll.embed.manifest.res" Debug\DllProject_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DllProject.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.lib" /MACHINE:X86 /DLL Debug\DllProject.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\DllProject.obj
+         Debug\stdafx.obj
+            Creando biblioteca e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.lib y objeto e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DllProject.dll.embed.manifest" /manifest Debug\DllProject.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DllProject.dll.embed.manifest.res" Debug\DllProject_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DllProject.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.lib" /MACHINE:X86 /DLL Debug\DllProject.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\DllProject.obj
+         Debug\stdafx.obj
+            Creando biblioteca e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.lib y objeto e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.exp
+         DllProject.vcxproj -> e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Debug\DllProject.dll
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\DllProject.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\DllProject.lastbuildstate".
+     1>Compilación del proyecto terminada "e:\Usuarios\Pablo\mis documentos\visual studio 2010\Projects\DllProject\DllProject\DllProject.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.28

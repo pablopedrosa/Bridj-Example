@@ -1,0 +1,31 @@
+﻿Compilación iniciada a las 12/05/2012 20:50:58.
+     1>Proyecto "e:\Usuarios\Pablo\mis documentos\visual studio 2010\Projects\DllProject\DllProject\DllProject.vcxproj" en el nodo 2 (rebuild destinos).
+     1>_PrepareForClean:
+         Se eliminará el archivo "Release\DllProject.lastbuildstate".
+       InitializeBuildStatus:
+         Se creará "Release\DllProject.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DLLPROJECT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\DllProject.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DLLPROJECT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DLLPROJECT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\DllProject.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DllProject.cpp
+         DllProject.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Release\DllProject.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\DllProject.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Release\DllProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Release\DllProject.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\DllProject.obj
+         Release\stdafx.obj
+            Creando biblioteca e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Release\DllProject.lib y objeto e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Release\DllProject.exp
+         Generando código
+         Generación de código finalizada
+         DllProject.vcxproj -> e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Release\DllProject.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"e:\usuarios\pablo\mis documentos\visual studio 2010\Projects\DllProject\Release\DllProject.dll;#2" /manifest Release\DllProject.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\DllProject.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\DllProject.lastbuildstate".
+     1>Compilación del proyecto terminada "e:\Usuarios\Pablo\mis documentos\visual studio 2010\Projects\DllProject\DllProject\DllProject.vcxproj" (rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.65
